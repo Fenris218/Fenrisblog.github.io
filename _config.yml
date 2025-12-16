@@ -150,7 +150,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "/Fenrisblog.github.io"
+baseurl: "/Fenrisblog"
 
 # ------------ The following options are not recommended to be modified ------------------
 
