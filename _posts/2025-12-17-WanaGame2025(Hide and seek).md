@@ -1,9 +1,9 @@
 ---
-title: WanaGame2025
+title: WanaGame2025-Hide and seek
 date: 2025-12-17 18:50:00 +0700
-categories: [CTF, Forensic]
+categories: [CTF, Forensic, WanaGame2025]
 tags: [forensic, memorydump] # TAG names should always be lowercase
-media_subpath: /assets/img/2025-12-17-WanaGame2025
+media_subpath: /assets/img/2025-12-17-WanaGame2025_hideandseek
 toc: true
 comments: false
 ---
