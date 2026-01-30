@@ -1,3 +1,12 @@
+---
+title: VSL2026-Accidental
+date: 2026-01-25 08:13:00 +0700
+categories: [CTF, Forensic, VSL2026]
+tags: [forensic, memorydump] # TAG names should always be lowercase
+media_subpath: /assets/img/2026-01-25-VSL2026_Accidental/
+toc: true
+comments: false
+---
 # Accidental
 
 - Công cụ : FTK Imager, SQLite, virustotal
@@ -7,21 +16,21 @@
 
 Đề cho ta một file challenge.E01, tiến hành mở bằng FTK. Dựa vào mô tả đề chúng ta biết được người dùng đã tải về và thực thi chương trình theo hướng dẫn, dẫn đến các tài liệu bị mã hóa, từ đó ta export ActivitiesCache.db để xem lịch sử hoạt động của người dùng
 
-![image.png](image%201.png)
+![image 1.png](image%201.png)
 
-![image.png](image%202.png)
+![image 2.png](image%202.png)
 
 theo lịch sử thì người dùng đã thực thi file setup.exe Local\Temp có vẻ đáng ngờ, tiến hành export và kiểm tra bằng virustotal
 
-![image.png](image%203.png)
+![image 3.png](image%203.png)
 
 virustotal báo đây là 1 trojan , khả năng cao chính là thứ đã mã hóa dữ liệu người dùng
 
-![image.png](image%204.png)
+![image 4.png](image%204.png)
 
 kiểm tra hành động của file thì thấy nó có hành vi ofuscated files ⇒ chính là mã độc cần tìm, tiếp theo ta mở bằng IDA và dùng MCP để phân tích 
 
-![image.png](image%205.png)
+![image 5.png](image%205.png)
 
 đây là pseudocode mã hóa của chương trình 
 
@@ -247,12 +256,12 @@ if __name__ == "__main__":
 
 Tiến hành decrypt file mã hóa trong Document của người dùng 
 
-![image.png](image%206.png)
+![image 6.png](image%206.png)
 
 check header của file ProjectFinal.restored thấy nó là file Zip cho nên mình đổi tên file lại và unzip
 
-![image.png](image%207.png)
+![image 7.png](image%207.png)
 
-![image.png](image%208.png)
+![image 8.png](image%208.png)
 
-![image.png](image%209.png)
+![image 9.png](image%209.png)
