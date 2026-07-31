@@ -8,51 +8,64 @@ toc: true
 comments: false
 ---
 
-## Mô tả : 
+## Description:
 A trusted harbor-latch mechanism is behaving erratically, processing routine transit writs with a strange, stuttering cadence. Under the cover of this mechanical distraction, an unseen hand bypassed the inner witness-marks and completely drained an Eastreach private credit-cache. Sift through the compromised latch's residual ash-logs and custody chains to track the phantom access before the stolen coin vanishes into the undercity.
-3 Files đính kèm :![IMG-20260731074918408.png](IMG-20260731074918408.png)
 
+3 attached files: ![IMG-20260731074918408.png](IMG-20260731074918408.png)
 
-
-## Câu hỏi : 
+## Questions:
 ### 1. What is the name of the process that originated the malicious behavior?
--> Discord 
+-> Discord
+
 ### 2. What is the Unix epoch timestamp when the malicious module was loaded?
-DLL malicious là d3d11.dll (sigcheck virustotal) 
+The malicious DLL is d3d11.dll (confirmed via sigcheck / VirusTotal).
 
 ![IMG-20260731080714642.png](IMG-20260731080714642.png)
 
-Tìm trong procmon thấy PID 7664 load lúc 21:28:11 (UTC+7)=> đổi sang UTC => Epoch time
+Found in Procmon that PID 7664 loaded it at 21:28:11 (UTC+7) => converted to UTC => Epoch time.
+
 ![IMG-20260731080917201.png](IMG-20260731080917201.png)
+
 -> 1782570491
+
 ### 3. Which exported function of the malicious module was invoked later?
-Use CFF explorer.exe
+Used CFF Explorer.
+
 ![IMG-20260731080956118.png](IMG-20260731080956118.png)
+
 -> D3D11CreateDevice
+
 ### 4. What 16-byte registry value does the malware use to derive its RC4 key (00aa11bb...)?
-Find in the procmon file after thời gian malicious module được load, nó lập tức truy vấn một registry value dài 16 byte
+Found in the Procmon log that right after the malicious module was loaded, it immediately queried a 16-byte registry value.
+
 ![IMG-20260731082346497.png](IMG-20260731082346497.png)
 
 -> 1aa3a658ce2c4a4258983eba1853f08c
 
 ### 5. What is the name of the mutex created by the malware?
-Unpack UPX rồi Rev malicious DLL, tìm chỗ gọi CreateMutexW
+Unpacked UPX, then reverse-engineered the malicious DLL and located the CreateMutexW call.
+
 ![IMG-20260731082813953.png](IMG-20260731082813953.png)
+
 -> Local\DiscordRuntimeCache
 
-### 6. What is the MITRE ATT&CK technique ID for the collection method?What is the MITRE ATT&CK technique ID for the collection method?
-Virustotal
+### 6. What is the MITRE ATT&CK technique ID for the collection method?
+VirusTotal.
+
 ![IMG-20260731082907306.png](IMG-20260731082907306.png)
+
 -> T1115
 
 ### 7. What is the IP address of the C2 server?
-Filter wireshark ngay sau khoảng thời gian DLL malicious được load (14:28:11 UTC) thì ta thấy máy thực thi (IP: 192.168.239.131) giao tiếp với IP 203.49.53.184 qua HTTP với các nội dung bị mã hóa
+Filtered Wireshark right after the malicious DLL was loaded (14:28:11 UTC) and observed the execution host (IP: 192.168.239.131) communicating with IP 203.49.53.184 over HTTP with encrypted content.
+
 ![IMG-20260731084231109.png](IMG-20260731084231109.png)
 
 -> 203.49.53.184
 
 ### 8. What is the crypto wallet seed phrase stolen by the malware?
-payload exfiltration bằng RC4 với key `1aa3a658ce2c4a4258983eba1853f08c`  đã tìm được ở trên — nhưng **key phải dùng theo thứ tự byte đảo ngược (reversed)** so với thứ tự đọc được từ registry mới khớp (`8cf05318ba3e9858424a2cce58a6a31a`), sau đó decrypt RC4 với lần lượt các gói giao tiếp với C2
+The exfiltrated payload is encrypted with RC4 using the key found above — but the key bytes need to be used in reversed order compared to how they're read from the registry for it to match (`8cf05318ba3e9858424a2cce58a6a31a`). Each packet exchanged with the C2 was then decrypted with RC4 in turn.
+
 ```
 from hashlib import sha256
 
@@ -75,13 +88,14 @@ payloads = {
 }
 for i, hexdata in payloads.items():
 
-    cipher = ARC4.new(key)      # tạo mới cho từng payload
+    cipher = ARC4.new(key)      # create a new cipher instance for each payload
 
-    plaintext = cipher.decrypt(bytes.fromhex(hexdata))
+    plaintext = cipher.decrypt(bytes.fromhex(hexdata))
 
-    print(plaintext.decode("utf-8", errors="replace"))
+    print(plaintext.decode("utf-8", errors="replace"))
 
 ```
 
 ![IMG-20260731085724817.png](IMG-20260731085724817.png)
+
 -> glow fix connect talon title risk barrel marine truth disease garbage cheese
