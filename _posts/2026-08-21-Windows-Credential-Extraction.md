@@ -1,6 +1,6 @@
 ---
 title: Windows-Credential-Extraction
-date: 2026-08-21 08:00:00 +0700
+date: 2026-08-21 06:26:00 +0700
 categories: [DFIR, Windows]
 tags: [windows, registry, sam, lsa, dpapi, mscache, dcc2, regipy, aes, des]
 media_subpath: /assets/img/2026-08-21-Windows_Credential_Extraction/
