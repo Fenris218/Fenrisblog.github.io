@@ -1,6 +1,6 @@
 ---
 title: Windows-Credential-Extraction-Part-2
-date: 2026-08-21 09:00:00 +0700
+date: 2026-08-21 09:52:00 +0700
 categories: [DFIR, Windows]
 tags: [windows, ntds, ese, pek, dcsync, kerberos, rc4, aes, des, secretsdump, volume-shadow-copy]
 media_subpath: /assets/img/2026-08-21-Windows_Credential_Extraction_Part_2/
@@ -10,11 +10,6 @@ mermaid: true
 ---
 
 # NTDS.dit: Domain Credential Storage
-
-> Nối tiếp [Part 1]({% post_url 2026-08-21-Windows-Credential-Extraction %})
-> (bootkey → SAM key → NT hash local, LSA key → LSA secret → DCC2) — phần
-> này trả lời: credential của **toàn domain** nằm ở đâu, mã hoá mấy lớp, và
-> muốn đọc thì cần những gì.
 
 ## 1. NTDS.dit là gì
 
