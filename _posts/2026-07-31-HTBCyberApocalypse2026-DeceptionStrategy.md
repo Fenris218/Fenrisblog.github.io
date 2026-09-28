@@ -1,7 +1,7 @@
 ---
 title: HTBCyberApocalypse2026-DeceptionStrategy
 date: 2026-07-31 09:05:58 +0700
-categories: [CTF, Forensic, Windows, HTBCyberApocalypse2026]
+categories: [HTB, Forensic, Windows, ]
 tags: [forensic, malware, dllhijacking, rc4, wireshark, procmon, mitreattck]
 media_subpath: /assets/img/2026-07-31-HTBCyberApocalypse2026_DeceptionStrategy/
 toc: true

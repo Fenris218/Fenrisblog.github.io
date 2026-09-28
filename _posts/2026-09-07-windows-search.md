@@ -1,7 +1,7 @@
 ---
 title: Windows Search
 date: 2026-09-07 08:34:00 +0700
-categories: [Forensic, Windows, DFIR, ESEDatabase]
+categories: [DFIR, Windows, ESEDatabase]
 tags: [forensic, windows, esedatabase, searchindexer, propertystore]
 media_subpath: /assets/img/2026-09-07-Windows_Search/
 toc: true

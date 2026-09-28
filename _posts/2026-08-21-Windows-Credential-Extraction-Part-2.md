@@ -1,7 +1,7 @@
 ---
 title: Windows-Credential-Extraction-Part-2
 date: 2026-08-21 09:52:00 +0700
-categories: [DFIR, Windows]
+categories: [DFIR, Windows, Credential]
 tags: [windows, ntds, ese, pek, dcsync, kerberos, rc4, aes, des, secretsdump, volume-shadow-copy]
 media_subpath: /assets/img/2026-08-21-Windows_Credential_Extraction_Part_2/
 toc: true

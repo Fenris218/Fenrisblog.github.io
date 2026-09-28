@@ -1,7 +1,7 @@
 ---
 title: HTBSherlock-CorpDown2
 date: 2026-08-03 20:27:27 +0700
-categories: [CTF, Forensic, Windows, Linux, HTBSherlock]
+categories: [HTB, Forensic, Windows, Linux, ]
 tags: [forensic, windows, linux, eventlog, powershell, chisel, keylogger, winscp, lateralmovement, persistence]
 media_subpath: /assets/img/2026-08-03-HTBSherlock_CorpDown2/
 toc: true

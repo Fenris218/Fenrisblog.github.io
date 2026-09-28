@@ -49,9 +49,9 @@ Theo mô tả của đề mình nghĩ người dùng đã mở gần đây nên 
 - Cách làm : 
 	- Vì đề chỉ cho NTUSER.DAT và UsrClass.dat nên mình tìm các artifact liên quan đến các file/folder được mở gần đây : RecentDocs, ShellBags, Open/Save and LastVisited Dialog MRUs, Windows Explorer Address/Search Bars nhưng không thu lại được gì.
 	- Tiếp tục Kiểm tra 7-zip tại `C:\Users\FlagYard\NTUSER.DAT_clean: Software\7-Zip\Compression` ta phát hiện thấy có 1 folder với tên lạ 
-	![image 9.png](image%209.png)
+	<!-- ![image 9.png](image%209.png) -->
 	Sau khi giải mã bằng Cyberchef ta được 
-	![image 10.png](image%2010.png)
+	<!-- ![image 10.png](image%2010.png) -->
 	-> Flag : FlagY{c002ae7b19e980cf07debb55c8d57450}
 # 5. Phantom - Easy
 - Mô tả : A suspicious image file was deleted from a user's system, but remnants of it may still exist within the Windows cache. Your task is to recover this deleted image and uncover the hidden flag.

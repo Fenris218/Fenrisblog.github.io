@@ -1,7 +1,7 @@
 ---
 title: VSL2026-Accidental
 date: 2026-01-25 08:13:00 +0700
-categories: [CTF, Forensic, VSL2026]
+categories: [CTF,VSL2026, Forensic]
 tags: [forensic, memorydump] # TAG names should always be lowercase
 media_subpath: /assets/img/2026-01-25-VSL2026_Accidental/
 toc: true
