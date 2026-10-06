@@ -1,7 +1,7 @@
 ---
 title: Flagyard-Forensic
 date: 2026-09-14 08:01:59 +0700
-categories: [CTF, Forensic, Flagyard]
+categories: [Flagyard]
 tags: [forensic, windows, ntfs, registry, pcap, bitlocker, prefetch, apk, powershell, phishing]
 media_subpath: /assets/img/2026-09-14-Flagyard_Forensic/
 toc: true
