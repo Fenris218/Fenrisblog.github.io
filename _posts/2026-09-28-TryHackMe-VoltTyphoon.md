@@ -2,7 +2,7 @@
 title: TryHackMe-VoltTyphoon
 date: 2026-09-28 09:31:16 +0700
 categories: [TryHackMe]
-tags: [tryhackme, splunk] # TAG names should always be lowercase
+tags: [tryhackme, splunk, cerutil] # TAG names should always be lowercase
 media_subpath: /assets/img/2026-09-28-TryHackMe_VoltTyphoon/
 toc: true
 comments: false

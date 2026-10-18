@@ -1,7 +1,7 @@
 ---
 title: TryHackMe-IronShade
 date: 2026-10-06 09:11:00 +0700
-categories: [CTF, Forensic, Linux, TryHackMe]
+categories: [TryHackMe]
 tags: [forensic, linux, compromise-assessment, persistence, cronjob, systemd, authlog, dpkg] # TAG names should always be lowercase
 media_subpath: /assets/img/2026-10-06-TryHackMe_IronShade/
 toc: true
