@@ -15,7 +15,7 @@ th_kind: module
 th_order: 10
 th_course: "soc-lv-2"
 th_module: "soc-lv-2/advanced-traffic-analysis"
-th_size: 3
+th_size: 1
 th_ancestors: ["soc-lv-2"]
 ---
 
@@ -23,6 +23,3 @@ th_ancestors: ["soc-lv-2"]
 
 [CDN and IP visibility]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-traffic-analysis/cdn-and-ip-visibility/)
 
-[Detection Engineering with Snort]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-traffic-analysis/detection-engineering-with-snort/)
-
-[**Network Monitoring with Zeek**]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-traffic-analysis/network-monitoring-with-zeek/)

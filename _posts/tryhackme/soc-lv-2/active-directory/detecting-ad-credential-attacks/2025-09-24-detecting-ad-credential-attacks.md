@@ -15,7 +15,7 @@ th_kind: note
 th_order: 3
 th_course: "soc-lv-2"
 th_module: "soc-lv-2/active-directory"
-th_size: 4
+th_size: 3
 th_ancestors: ["soc-lv-2", "soc-lv-2/active-directory"]
 ---
 
@@ -28,6 +28,3 @@ th_ancestors: ["soc-lv-2", "soc-lv-2/active-directory"]
 [AS-REP roasting]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-credential-attacks/as-rep-roasting/)
 
 [LSASS dumping ]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-credential-attacks/lsass-dumping/)
-
-[Detecting DCSync]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-credential-attacks/detecting-dcsync/)
-

@@ -15,7 +15,7 @@ th_kind: module
 th_order: 7
 th_course: "cyber-101"
 th_module: "cyber-101/cryptography-basics"
-th_size: 19
+th_size: 18
 th_ancestors: ["cyber-101"]
 ---
 

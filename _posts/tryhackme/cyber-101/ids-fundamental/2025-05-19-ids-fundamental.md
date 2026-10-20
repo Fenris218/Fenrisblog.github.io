@@ -15,7 +15,7 @@ th_kind: module
 th_order: 16
 th_course: "cyber-101"
 th_module: "cyber-101/ids-fundamental"
-th_size: 3
+th_size: 2
 th_ancestors: ["cyber-101"]
 ---
 
@@ -28,5 +28,3 @@ It  monitors the network traffic based on its signature and anomaly-based detect
 [Type of IDS]({{ site.baseurl }}/tryhackme/cyber-101/ids-fundamental/type-of-ids/)
 
 [IDS Example: Snort]({{ site.baseurl }}/tryhackme/cyber-101/ids-fundamental/ids-example-snort/)
-
-[Snort Usage]({{ site.baseurl }}/tryhackme/cyber-101/ids-fundamental/snort-usage/)

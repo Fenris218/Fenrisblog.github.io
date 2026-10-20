@@ -15,7 +15,7 @@ th_kind: module
 th_order: 5
 th_course: "soc-lv-2"
 th_module: "soc-lv-2/advanced-splunk"
-th_size: 12
+th_size: 8
 th_ancestors: ["soc-lv-2"]
 ---
 

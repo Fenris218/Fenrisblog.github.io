@@ -15,7 +15,7 @@ th_kind: module
 th_order: 4
 th_course: "cyber-101"
 th_module: "cyber-101/wireshark"
-th_size: 19
+th_size: 13
 th_ancestors: ["cyber-101"]
 ---
 
@@ -23,19 +23,11 @@ th_ancestors: ["cyber-101"]
 
 [Colouring packets]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/colouring-packets/)
 
-[**Traffic Sniffing**]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/traffic-sniffing/)
-
-[Merge PCAP file]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/merge-pcap-file/)
-
-[View File Details]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/view-file-details/)
-
 [Packet Navigation]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/packet-navigation/)
 
 [**Expert Info**]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/expert-info/)
 
 [Filter]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/filter/)
-
-[**Statistics**]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/statistics/)
 
 [filter]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/filter-2/)
 
@@ -50,7 +42,5 @@ th_ancestors: ["cyber-101"]
 [HTTP]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/http/)
 
 [HTTPs]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/https/)
-
-[Bonus]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/bonus/)
 
 [Tshark CLI]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/tshark-cli/)

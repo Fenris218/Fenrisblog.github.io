@@ -15,7 +15,7 @@ th_kind: module
 th_order: 8
 th_course: "cyber-101"
 th_module: "cyber-101/metasploit"
-th_size: 8
+th_size: 5
 th_ancestors: ["cyber-101"]
 ---
 

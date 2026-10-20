@@ -15,12 +15,10 @@ th_kind: module
 th_order: 2
 th_course: "soc-lv-2"
 th_module: "soc-lv-2/log-analyst-tools"
-th_size: 2
+th_size: 1
 th_ancestors: ["soc-lv-2"]
 ---
 
 {% include tryhackme-nav.html %}
 
 [Sigma]({{ site.baseurl }}/tryhackme/soc-lv-2/log-analyst-tools/sigma/)
-
-[Yara]({{ site.baseurl }}/tryhackme/soc-lv-2/log-analyst-tools/yara/)

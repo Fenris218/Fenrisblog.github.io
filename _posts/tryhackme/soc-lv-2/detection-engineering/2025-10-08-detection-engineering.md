@@ -15,12 +15,10 @@ th_kind: module
 th_order: 8
 th_course: "soc-lv-2"
 th_module: "soc-lv-2/detection-engineering"
-th_size: 2
+th_size: 1
 th_ancestors: ["soc-lv-2"]
 ---
 
 {% include tryhackme-nav.html %}
 
 [Sigma Language]({{ site.baseurl }}/tryhackme/soc-lv-2/detection-engineering/sigma-language/)
-
-[AI & Automation in Detection Engineering]({{ site.baseurl }}/tryhackme/soc-lv-2/detection-engineering/ai-automation-in-detection-engineering/)

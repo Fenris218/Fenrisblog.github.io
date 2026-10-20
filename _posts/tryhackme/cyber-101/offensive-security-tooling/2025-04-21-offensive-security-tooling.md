@@ -15,16 +15,12 @@ th_kind: module
 th_order: 10
 th_course: "cyber-101"
 th_module: "cyber-101/offensive-security-tooling"
-th_size: 11
+th_size: 4
 th_ancestors: ["cyber-101"]
 ---
 
 {% include tryhackme-nav.html %}
 
-[Hydra]({{ site.baseurl }}/tryhackme/cyber-101/offensive-security-tooling/hydra/)
-
 [Gobuster]({{ site.baseurl }}/tryhackme/cyber-101/offensive-security-tooling/gobuster/)
 
 [Shell]({{ site.baseurl }}/tryhackme/cyber-101/offensive-security-tooling/shell/)
-
-[SQLMap: The Basics]({{ site.baseurl }}/tryhackme/cyber-101/offensive-security-tooling/sqlmap-the-basics/)

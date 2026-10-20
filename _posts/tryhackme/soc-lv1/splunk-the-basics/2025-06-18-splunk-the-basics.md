@@ -15,12 +15,10 @@ th_kind: module
 th_order: 6
 th_course: "soc-lv1"
 th_module: "soc-lv1/splunk-the-basics"
-th_size: 2
+th_size: 1
 th_ancestors: ["soc-lv1"]
 ---
 
 {% include tryhackme-nav.html %}
 
 [Splunk Components]({{ site.baseurl }}/tryhackme/soc-lv1/splunk-the-basics/splunk-components/)
-
-[Adding Data ]({{ site.baseurl }}/tryhackme/soc-lv1/splunk-the-basics/adding-data/)

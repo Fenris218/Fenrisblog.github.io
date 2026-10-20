@@ -15,7 +15,7 @@ th_kind: note
 th_order: 2
 th_course: "soc-lv-2"
 th_module: "soc-lv-2/advanced-splunk"
-th_size: 5
+th_size: 1
 th_ancestors: ["soc-lv-2", "soc-lv-2/advanced-splunk"]
 ---
 
@@ -32,13 +32,5 @@ th_ancestors: ["soc-lv-2", "soc-lv-2/advanced-splunk"]
     
 - **Field Extraction**: Extract relevant fields from your client's event data
 
-[How Splunk process data]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/data-manipulation/how-splunk-process-data/)
-
 [Other configuration files]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/data-manipulation/other-configuration-files/)
-
-[Configuring event boundaries]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/data-manipulation/configuring-event-boundaries/)
-
-[Parsing multi-line Events]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/data-manipulation/parsing-multi-line-events/)
-
-[Masking sensitive data]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/data-manipulation/masking-sensitive-data/)
 

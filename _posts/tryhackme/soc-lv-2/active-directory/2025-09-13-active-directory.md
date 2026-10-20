@@ -15,7 +15,7 @@ th_kind: module
 th_order: 7
 th_course: "soc-lv-2"
 th_module: "soc-lv-2/active-directory"
-th_size: 21
+th_size: 20
 th_ancestors: ["soc-lv-2"]
 ---
 

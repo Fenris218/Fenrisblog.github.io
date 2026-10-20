@@ -15,7 +15,7 @@ th_kind: module
 th_order: 16
 th_course: "soc-lv1"
 th_module: "soc-lv1/linux-logging-for-soc"
-th_size: 4
+th_size: 3
 th_ancestors: ["soc-lv1"]
 ---
 
@@ -24,7 +24,5 @@ th_ancestors: ["soc-lv1"]
 [Authentication Logs]({{ site.baseurl }}/tryhackme/soc-lv1/linux-logging-for-soc/authentication-logs/)
 
 [Common Linux Logs]({{ site.baseurl }}/tryhackme/soc-lv1/linux-logging-for-soc/common-linux-logs/)
-
-[Runtime Monitoring]({{ site.baseurl }}/tryhackme/soc-lv1/linux-logging-for-soc/runtime-monitoring/)
 
 [Auditd]({{ site.baseurl }}/tryhackme/soc-lv1/linux-logging-for-soc/auditd/)

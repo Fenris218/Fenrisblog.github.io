@@ -15,7 +15,7 @@ th_kind: note
 th_order: 3
 th_course: "cyber-101"
 th_module: "cyber-101/web-hacking"
-th_size: 2
+th_size: 1
 th_ancestors: ["cyber-101", "cyber-101/web-hacking"]
 ---
 
@@ -33,6 +33,3 @@ th_ancestors: ["cyber-101", "cyber-101/web-hacking"]
 - **Sequencer**: [Sequencer](https://tryhackme.com/room/burpsuiteom) is typically employed when assessing the randomness of tokens, such as session cookie values or other supposedly randomly generated data. If the algorithm used for generating these values lacks secure randomness, it can expose avenues for devastating attacks.
 
 [Site map and Issue Definitions]({{ site.baseurl }}/tryhackme/cyber-101/web-hacking/burp-suite/site-map-and-issue-definitions/)
-
-[Scoping and Targeting]({{ site.baseurl }}/tryhackme/cyber-101/web-hacking/burp-suite/scoping-and-targeting/)
-

@@ -15,7 +15,7 @@ th_kind: module
 th_order: 3
 th_course: "soc-lv1"
 th_module: "soc-lv1/soc-workbooks-and-lookups"
-th_size: 3
+th_size: 2
 th_ancestors: ["soc-lv1"]
 ---
 
@@ -24,7 +24,5 @@ th_ancestors: ["soc-lv1"]
 This room explores SOC workbooks designed to streamline alert triage and explains various lookup methods to quickly retrieve user and system context.
 
 [Asset & indentifies]({{ site.baseurl }}/tryhackme/soc-lv1/soc-workbooks-and-lookups/asset-indentifies/)
-
-[Network diagrams]({{ site.baseurl }}/tryhackme/soc-lv1/soc-workbooks-and-lookups/network-diagrams/)
 
 [Workbooks Theory]({{ site.baseurl }}/tryhackme/soc-lv1/soc-workbooks-and-lookups/workbooks-theory/)

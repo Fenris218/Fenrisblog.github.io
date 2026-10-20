@@ -15,12 +15,10 @@ th_kind: note
 th_order: 10
 th_course: "cyber-101"
 th_module: "cyber-101/wireshark"
-th_size: 2
+th_size: 1
 th_ancestors: ["cyber-101", "cyber-101/wireshark"]
 ---
 
 {% include tryhackme-nav.html %}
 
 [Nmap Scans]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/traffic-analysis/nmap-scans/)
-
-[ARP Posoning/ Spoofing **(A.K.A. Man In The Middle Attack)**]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/traffic-analysis/arp-posoning-spoofing-a-k-a-man-in-the-middle-attack/)

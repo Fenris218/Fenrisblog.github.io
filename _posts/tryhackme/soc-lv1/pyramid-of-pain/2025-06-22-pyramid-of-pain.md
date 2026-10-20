@@ -15,7 +15,7 @@ th_kind: module
 th_order: 8
 th_course: "soc-lv1"
 th_module: "soc-lv1/pyramid-of-pain"
-th_size: 5
+th_size: 2
 th_ancestors: ["soc-lv1"]
 ---
 
@@ -26,12 +26,6 @@ This well-renowned concept is being applied to cybersecurity solutions like [Cis
 Understanding the Pyramid of Pain concept as a Threat Hunter, Incident Responder, or SOC Analyst is important.
 
 ![image.png](image.png)
-
-[IP Address (Easy)]({{ site.baseurl }}/tryhackme/soc-lv1/pyramid-of-pain/ip-address-easy/)
-
-[Domain Names (Simple)]({{ site.baseurl }}/tryhackme/soc-lv1/pyramid-of-pain/domain-names-simple/)
-
-[Host Artifacts / Network Artifact(Annoying)]({{ site.baseurl }}/tryhackme/soc-lv1/pyramid-of-pain/host-artifacts-network-artifact-annoying/)
 
 [Tools (Challenging)]({{ site.baseurl }}/tryhackme/soc-lv1/pyramid-of-pain/tools-challenging/)
 
