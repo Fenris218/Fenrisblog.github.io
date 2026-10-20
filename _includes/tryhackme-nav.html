@@ -1,0 +1,41 @@
+{% assign th_children = site.posts | where: 'th_parent', page.th_id | sort: 'th_order' %}
+{% if page.th_id %}
+  <nav class="tryhackme-breadcrumb mb-3" aria-label="breadcrumb">
+    <ol class="breadcrumb mb-0">
+      <li class="breadcrumb-item">
+        <a href="{{ '/tryhackme/' | relative_url }}"><i class="fas fa-shield-halved fa-fw"></i> TryHackMe</a>
+      </li>
+      {% for ancestor_id in page.th_ancestors %}
+        {% assign ancestor = site.posts | where: 'th_id', ancestor_id | first %}
+        {% if ancestor %}
+          <li class="breadcrumb-item">
+            <a href="{{ ancestor.url | relative_url }}">{{ ancestor.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+    </ol>
+  </nav>
+
+  {% if th_children.size > 0 %}
+    <div class="card my-4">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <span><i class="fas fa-list-ul fa-fw me-1"></i> In this section</span>
+        <span class="badge bg-secondary">{{ th_children | size }}</span>
+      </div>
+      <div class="list-group list-group-flush">
+        {% for child in th_children %}
+          <a
+            href="{{ child.url | relative_url }}"
+            class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+          >
+            <span>{{ child.title }}</span>
+            {% if child.th_size > 0 %}
+              <span class="badge bg-light text-dark border">{{ child.th_size }}</span>
+            {% endif %}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endif %}

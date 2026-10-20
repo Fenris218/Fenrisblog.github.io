@@ -1,0 +1,7 @@
+# Taste
+- Writes and reasons in Vietnamese; expects replies (including the final summary) in Vietnamese. Confidence: 0.75
+- Asks short, informal, typo-tolerant questions (e.g. "chừ tôi git push lên là GITHUB tự CI/CD đúng ko") and expects a direct yes/no answer first, then the caveats and concrete commands. Confidence: 0.55
+- Runs a Jekyll blog (Chirpy theme) deployed to GitHub Pages; imported content must be restructured to match the site's existing conventions — `_posts` files named `YYYY-MM-DD-slug.md` with full front matter, per-post asset folders under `assets/img/...`, `media_subpath` for images — instead of leaving a raw dump folder in the repo. Confidence: 0.7
+- Wants notes organized as a browsable hierarchy (post → sub-post/modules) with auto-generated navigation (breadcrumbs, child-page lists, a dedicated tab/index page) rather than a flat archive. Confidence: 0.65
+- Expects imports to be verified before finishing: broken links/images checked, source-vs-output counts reconciled, and generated content validated (YAML/liquid syntax) when a full local build isn't possible. Confidence: 0.6
+- Treats the GitHub Actions pipeline (`pages-deploy.yml`: Jekyll build → `htmlproofer` link/image check → Pages deploy, triggered on push to `main`) as the authoritative build/deploy gate; work can be handed off without a local `bundle exec jekyll build`, but commit steps and CI-blocking risks should be spelled out. Confidence: 0.55
