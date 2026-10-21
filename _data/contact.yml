@@ -3,6 +3,14 @@
 - type: github
   icon: "fab fa-github"
 
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: https://www.linkedin.com/in/doan-dinh-hoang-b6967622b
+
+- type: tryhackme
+  icon: "fas fa-shield-halved"
+  url: https://tryhackme.com/p/Fenris218
+
 - type: Facebook
   icon: "fa-brands fa-facebook"
 
