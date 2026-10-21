@@ -181,6 +181,7 @@ In other words, you've managed to harvest a user NTLM hash or a Kerberos ticket.
 ```bash
  CLIENT                        SERVER               DOMAIN CONTROLLER   
     |                             |                        |
+| --- | --- |
     | 1. ----[auth request]---->  |                        |
     |                             |                        |
     | 2. <---[NTLM challenge]---  |                        |
@@ -221,6 +222,7 @@ https://notes.benheater.com/books/active-directory/page/mimikatz?ref=benheater.c
 ```bash
  CLIENT                                         KDC on DOMAIN CONTROLER
     |                                                        |
+| --- |
     | Client sends a timestamp                               |
     | encrypted with a key                                   |
     | derived from the user hash                             |
@@ -251,6 +253,7 @@ https://notes.benheater.com/books/active-directory/page/mimikatz?ref=benheater.c
 ```bash
  CLIENT                                         KDC on DOMAIN CONTROLER
     |                                                        |
+| --- |
     | When the client wants to connect to                    |
     | a service, the client willl encrypt                    |
     | a timestamp using the session key                      |
@@ -291,6 +294,7 @@ https://notes.benheater.com/books/active-directory/page/mimikatz?ref=benheater.c
 ```bash
  CLIENT                                              SERVICE PRINCIPAL
     |                                                        |
+| --- |
     | The client then sends the TGS and                      |
     | service session key to the SP.                         |
     | Since the service seesion key is                       |

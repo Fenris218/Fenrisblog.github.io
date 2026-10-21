@@ -30,6 +30,7 @@ The [rename(opens in new tab)](https://help.splunk.com/en/splunk-enterprise/spl-
 ```c
 index = windowslogs
 | fields EventID User Image Hostname SourceIp
+| --- |
 | rename User as Employee
 ```
 
@@ -38,6 +39,7 @@ The command is also useful to flatten JSON or XML subfields. For example, for a 
 ```c
 index=jsondata
 | rename request.* as * // request.path -> path; request.ip -> ip
+| --- |
 ```
 
 - regex : allows you to filter search results using regular expressions

@@ -27,6 +27,7 @@ th_ancestors: ["soc-lv-2", "soc-lv-2/advanced-splunk", "soc-lv-2/advanced-splunk
 
 ```
 | eval AccountType=if(like(Account_Name, "%$%"), "Computer Account", "User Account")
+| --- |
 
 ```
 
@@ -34,22 +35,26 @@ th_ancestors: ["soc-lv-2", "soc-lv-2/advanced-splunk", "soc-lv-2/advanced-splunk
 
 ```
 | bin _time span=1h
+| --- |
 ```
 
 - khác với stats sẽ giảm số dòng, eventstats sẽ không giảm số dòng
 
 ```
 | eventstats avg(hits) AS avg_hits
+| --- |
 ```
 
 - stats dc() : dc là dùng để distint count
 
 ```
 | stats dc(Service_Name) as targeted_services count by Account_Name, Client_Address
+| --- |
 ```
 
 - lookup : Dùng table csv
 
 ```
 | lookup asn_lookup network AS dstip OUTPUT dst_asn_org dst_category dst_risk
+| --- |
 ```

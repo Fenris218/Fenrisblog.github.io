@@ -28,6 +28,7 @@ th_ancestors: []
 ### a. OS information
 
 ```
+
 ## List hostname and Kernel version
 john@home:~$ uname -a
 Linux home 6.8.0-41-generic

@@ -48,6 +48,7 @@ Let's say we want to filter for TGT requests in Splunk. We can use the following
 ```sql
 index=* EventCode=4768
 | table _time, Account_Name, Client_Address, Ticket_Encryption_Type
+| --- |
 ```
 
 ![image.png](image%202.png)

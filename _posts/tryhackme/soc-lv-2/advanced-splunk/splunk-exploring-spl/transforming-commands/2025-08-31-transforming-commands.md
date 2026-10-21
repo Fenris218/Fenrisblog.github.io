@@ -51,6 +51,7 @@ Similarly, [lookup(opens in new tab)](https://help.splunk.com/en/splunk-enterpri
 ```
 index=windowslogs
 | lookup user_roles Hostname OUTPUT UserRole
+| --- |
 | stats count by Hostname UserRole
 
 ```

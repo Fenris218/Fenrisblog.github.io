@@ -26,6 +26,7 @@ th_ancestors: ["cyber-101", "cyber-101/linux-fundamental"]
 - Loops :
 
 ```bash
+
 ## Defining the Interpreter 
 #!/bin/bash
 for i in {1..10};
@@ -37,6 +38,7 @@ done
 - conditions :
 
 ```bash
+
 ## Defining the Interpreter 
 #!/bin/bash
 echo "Please enter your name first:"

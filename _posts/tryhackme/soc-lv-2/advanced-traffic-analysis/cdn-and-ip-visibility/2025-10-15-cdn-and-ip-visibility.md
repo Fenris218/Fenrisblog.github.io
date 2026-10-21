@@ -63,6 +63,7 @@ Before we narrow down to a specific connection, let's get a picture of where all
 ```
 index=lab sourcetype=fortigate_traffic
 | lookup asn_lookup network AS dstip OUTPUT dst_asn_org dst_category dst_risk
+| --- |
 | stats count by dst_category dst_asn_org
 | sort -count
 ```
@@ -80,6 +81,7 @@ A CDN IP in isolation tells us nothing. What matters is the traffic pattern arou
 ```
 index=lab sourcetype=fortigate_traffic srcip=10.10.15.44 dstip=172.67.153.42
 | eval hour=strftime(_time,"%Y-%m-%d %H")
+| --- |
 | stats count as per_hour min(sentbyte) as min_b max(sentbyte) as max_b by hour
 | sort -per_hour | head 15
 ```
