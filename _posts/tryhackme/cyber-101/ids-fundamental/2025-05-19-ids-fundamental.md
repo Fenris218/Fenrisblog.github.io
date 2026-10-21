@@ -25,6 +25,3 @@ If an attacker successfully bypasses a firewall via a legitimate-looking connect
 
 It  monitors the network traffic based on its signature and anomaly-based detections, and detects any abnormal traffic going out or inside the network. Upon every detection, an alert is generated for the security administrators. IDS does not act on those detections; it only notifies the security administrators about the malicious activity.
 
-[Type of IDS]({{ site.baseurl }}/tryhackme/cyber-101/ids-fundamental/type-of-ids/)
-
-[IDS Example: Snort]({{ site.baseurl }}/tryhackme/cyber-101/ids-fundamental/ids-example-snort/)

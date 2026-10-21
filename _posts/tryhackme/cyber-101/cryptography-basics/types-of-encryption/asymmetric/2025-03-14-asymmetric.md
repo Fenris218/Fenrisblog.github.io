@@ -29,4 +29,3 @@ Mỗi bên có **cặp khóa** : public key (công khai) và private key (bí m�
 
 ![image.png](image.png)
 
-[Thuật toán RSA]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/types-of-encryption/asymmetric/thuat-toan-rsa/)

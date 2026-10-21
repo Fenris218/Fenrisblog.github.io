@@ -21,12 +21,3 @@ th_ancestors: ["soc-lv-2", "soc-lv-2/advanced-splunk"]
 
 {% include tryhackme-nav.html %}
 
-[Filtering]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/splunk-exploring-spl/filtering/)
-
-[Structuring Results]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/splunk-exploring-spl/structuring-results/)
-
-[transforming commands]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/splunk-exploring-spl/transforming-commands/)
-
-[Rex sẵn : ]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/splunk-exploring-spl/rex-san/)
-
-[Các lệnh khác]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/splunk-exploring-spl/cac-lenh-khac/)

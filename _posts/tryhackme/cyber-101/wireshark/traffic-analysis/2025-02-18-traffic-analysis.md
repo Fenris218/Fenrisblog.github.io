@@ -21,4 +21,3 @@ th_ancestors: ["cyber-101", "cyber-101/wireshark"]
 
 {% include tryhackme-nav.html %}
 
-[Nmap Scans]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/traffic-analysis/nmap-scans/)

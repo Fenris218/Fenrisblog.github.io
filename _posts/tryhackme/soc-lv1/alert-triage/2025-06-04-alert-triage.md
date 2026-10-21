@@ -30,6 +30,4 @@ th_ancestors: ["soc-lv1"]
 | SOAR System | Splunk SOAR,Cortex SOAR | Bigger SOC teams can use SOAR to aggregate and centralise alerts from multiple solutions |
 | ITSMSystem | Jira,TheHive | Some teams may have a custom ticket management (ITSM) setup using a dedicated solution(The GIF above is taken from Trello, a simple tool that can be adapted to ITSM needs) |
 
-[Alert Properties]({{ site.baseurl }}/tryhackme/soc-lv1/alert-triage/alert-properties/)
-
 ![image.png](image.png)

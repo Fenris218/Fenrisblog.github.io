@@ -32,4 +32,3 @@ th_ancestors: ["cyber-101", "cyber-101/web-hacking"]
 - **Comparer**: As the name suggests, [Comparer](https://tryhackme.com/room/burpsuiteom) enables the comparison of two pieces of data at either the word or byte level.
 - **Sequencer**: [Sequencer](https://tryhackme.com/room/burpsuiteom) is typically employed when assessing the randomness of tokens, such as session cookie values or other supposedly randomly generated data. If the algorithm used for generating these values lacks secure randomness, it can expose avenues for devastating attacks.
 
-[Site map and Issue Definitions]({{ site.baseurl }}/tryhackme/cyber-101/web-hacking/burp-suite/site-map-and-issue-definitions/)

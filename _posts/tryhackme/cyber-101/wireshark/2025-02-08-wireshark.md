@@ -21,26 +21,4 @@ th_ancestors: ["cyber-101"]
 
 {% include tryhackme-nav.html %}
 
-[Colouring packets]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/colouring-packets/)
-
-[Packet Navigation]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/packet-navigation/)
-
-[**Expert Info**]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/expert-info/)
-
-[Filter]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/filter/)
-
-[filter]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/filter-2/)
-
-[Traffic analysis]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/traffic-analysis/)
-
-[**Identifying Hosts: DHCP, NetBIOS, Kerberos**]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/identifying-hosts-dhcp-netbios-kerberos/)
-
-[Tunneling Traffic: DNS and ICMP]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/tunneling-traffic-dns-and-icmp/)
-
-[FTP]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/ftp/)
-
-[HTTP]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/http/)
-
-[HTTPs]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/https/)
-
 [Tshark CLI]({{ site.baseurl }}/tryhackme/cyber-101/wireshark/tshark-cli/)

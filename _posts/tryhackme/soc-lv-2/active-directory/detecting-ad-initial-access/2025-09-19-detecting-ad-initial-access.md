@@ -21,10 +21,3 @@ th_ancestors: ["soc-lv-2", "soc-lv-2/active-directory"]
 
 {% include tryhackme-nav.html %}
 
-[Understand IIS and its log]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-initial-access/understand-iis-and-its-log/)
-
-[Detecting Webshell deployment]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-initial-access/detecting-webshell-deployment/)
-
-[Exchange, OWA, Credential attacks]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-initial-access/exchange-owa-credential-attacks/)
-
-[VPN and AD]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-initial-access/vpn-and-ad/)

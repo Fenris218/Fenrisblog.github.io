@@ -21,4 +21,3 @@ th_ancestors: ["soc-lv-2"]
 
 {% include tryhackme-nav.html %}
 
-[Sigma]({{ site.baseurl }}/tryhackme/soc-lv-2/log-analyst-tools/sigma/)

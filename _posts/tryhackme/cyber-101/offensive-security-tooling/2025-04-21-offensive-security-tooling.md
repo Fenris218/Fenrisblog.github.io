@@ -21,6 +21,3 @@ th_ancestors: ["cyber-101"]
 
 {% include tryhackme-nav.html %}
 
-[Gobuster]({{ site.baseurl }}/tryhackme/cyber-101/offensive-security-tooling/gobuster/)
-
-[Shell]({{ site.baseurl }}/tryhackme/cyber-101/offensive-security-tooling/shell/)

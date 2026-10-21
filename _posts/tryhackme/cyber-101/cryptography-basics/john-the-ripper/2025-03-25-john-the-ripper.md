@@ -21,14 +21,3 @@ th_ancestors: ["cyber-101", "cyber-101/cryptography-basics"]
 
 {% include tryhackme-nav.html %}
 
-[Cracking Basic Hashes]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/john-the-ripper/cracking-basic-hashes/)
-
-[**Cracking Hashes from /etc/shadow**]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/john-the-ripper/cracking-hashes-from-etc-shadow/)
-
-[Single crack mode]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/john-the-ripper/single-crack-mode/)
-
-[Cracking Password Protected Zip Files]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/john-the-ripper/cracking-password-protected-zip-files/)
-
-[**Cracking a Password-Protected RAR Archive**]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/john-the-ripper/cracking-a-password-protected-rar-archive/)
-
-[**Cracking SSH Key Passwords**]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/john-the-ripper/cracking-ssh-key-passwords/)

@@ -21,6 +21,3 @@ th_ancestors: ["cyber-101", "cyber-101/web-hacking"]
 
 {% include tryhackme-nav.html %}
 
-[HTTP Response ]({{ site.baseurl }}/tryhackme/cyber-101/web-hacking/web-application-basics/http-response/)
-
-[**Security Headers**]({{ site.baseurl }}/tryhackme/cyber-101/web-hacking/web-application-basics/security-headers/)

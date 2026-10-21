@@ -21,8 +21,3 @@ th_ancestors: ["cyber-101"]
 
 {% include tryhackme-nav.html %}
 
-[People]({{ site.baseurl }}/tryhackme/cyber-101/soc-fundamental/people/)
-
-[Process]({{ site.baseurl }}/tryhackme/cyber-101/soc-fundamental/process/)
-
-[Technology]({{ site.baseurl }}/tryhackme/cyber-101/soc-fundamental/technology/)

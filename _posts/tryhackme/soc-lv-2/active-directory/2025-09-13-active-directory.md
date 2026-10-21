@@ -21,12 +21,3 @@ th_ancestors: ["soc-lv-2"]
 
 {% include tryhackme-nav.html %}
 
-[**Monitoring Active Directory**]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/monitoring-active-directory/)
-
-[Detecting AD initial Access]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-initial-access/)
-
-[**Detecting AD Credential Attacks**]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-credential-attacks/)
-
-[Detecting AD lateral movement]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-lateral-movement/)
-
-[Detecting AD Post-Exploitation]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-post-exploitation/)

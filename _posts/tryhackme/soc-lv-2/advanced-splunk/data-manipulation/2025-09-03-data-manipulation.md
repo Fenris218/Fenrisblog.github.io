@@ -32,5 +32,3 @@ th_ancestors: ["soc-lv-2", "soc-lv-2/advanced-splunk"]
     
 - **Field Extraction**: Extract relevant fields from your client's event data
 
-[Other configuration files]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/data-manipulation/other-configuration-files/)
-

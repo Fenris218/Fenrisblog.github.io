@@ -24,8 +24,6 @@ th_ancestors: ["cyber-101", "cyber-101/cryptography-basics"]
 Symmetric **encryption**, also known as **symmetric cryptography**, uses the same key to encrypt and decrypt the data
 Examples of symmetric encryption are DES (Data Encryption Standard), 3DES (Triple DES) and AES (Advanced Encryption Standard).
 
-[Asymmetric ]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/types-of-encryption/asymmetric/)
-
  Unlike symmetric encryption, which uses the same key for encryption and  decryption, asymmetric **encryption** uses a pair of keys, one to encrypt and the other to decrypt. Examples are RSA, Diffie-Hellman, and Elliptic Curve cryptography (ECC). The two keys involved in the process are referred to as a **public key** and a **private key**.
 
 Asymmetric encryption tends to be slower, and many asymmetric encryption ciphers use larger keys than symmetric encryption. For example, RSA uses 2048-bit, 3072-bit, and 4096-bit keys; 2048-bit is the recommended minimum key size. Diffie-Hellman also has a recommended minimum key size of 2048 bits but uses 3072-bit and 4096-bit keys for enhanced security. On the other hand, ECC can achieve equivalent security with shorter keys. For example, with a 256-bit key, ECC provides a level of security comparable to a 3072-bit RSA key.

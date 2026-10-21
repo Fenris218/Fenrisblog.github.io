@@ -21,10 +21,3 @@ th_ancestors: ["soc-lv-2", "soc-lv-2/active-directory"]
 
 {% include tryhackme-nav.html %}
 
-[AD Traffic and Logging]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/monitoring-active-directory/ad-traffic-and-logging/)
-
-[Authenticate ]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/monitoring-active-directory/authenticate/)
-
-[Account, Groups and Resource Access Events]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/monitoring-active-directory/account-groups-and-resource-access-events/)
-
-[Other event Logs]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/monitoring-active-directory/other-event-logs/)

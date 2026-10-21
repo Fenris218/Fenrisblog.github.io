@@ -111,4 +111,3 @@ taskkill /IM notepad.exe /F
 
 → chỉ dựa vào text, không có khái niệm object hay method.
 
-[Scripting]({{ site.baseurl }}/tryhackme/cyber-101/window-fundamental/powershell/scripting/)

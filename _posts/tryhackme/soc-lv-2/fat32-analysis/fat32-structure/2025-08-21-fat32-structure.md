@@ -62,12 +62,7 @@ How do we need to interpret this table? A sector is the smallest addressable uni
 
 ### **1.1.**
 
-[**Boot Sector**]({{ site.baseurl }}/tryhackme/soc-lv-2/fat32-analysis/fat32-structure/boot-sector/)
-
 ### 1.2.
-
-[**FAT Area**]({{ site.baseurl }}/tryhackme/soc-lv-2/fat32-analysis/fat32-structure/fat-area/)
 
 ### 1.3
 
-[**Data Area**]({{ site.baseurl }}/tryhackme/soc-lv-2/fat32-analysis/fat32-structure/data-area/)

@@ -27,6 +27,4 @@ Understanding the Pyramid of Pain concept as a Threat Hunter, Incident Responder
 
 ![image.png](image.png)
 
-[Tools (Challenging)]({{ site.baseurl }}/tryhackme/soc-lv1/pyramid-of-pain/tools-challenging/)
-
 [TTPs (Tough)]({{ site.baseurl }}/tryhackme/soc-lv1/pyramid-of-pain/ttps-tough/)

@@ -21,4 +21,3 @@ th_ancestors: ["soc-lv-2"]
 
 {% include tryhackme-nav.html %}
 
-[Sigma Language]({{ site.baseurl }}/tryhackme/soc-lv-2/detection-engineering/sigma-language/)

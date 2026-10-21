@@ -21,6 +21,3 @@ th_ancestors: ["cyber-101"]
 
 {% include tryhackme-nav.html %}
 
-[**Web Application Basics**]({{ site.baseurl }}/tryhackme/cyber-101/web-hacking/web-application-basics/)
-
-[Burp Suite]({{ site.baseurl }}/tryhackme/cyber-101/web-hacking/burp-suite/)

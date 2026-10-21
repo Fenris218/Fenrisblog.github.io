@@ -21,8 +21,3 @@ th_ancestors: ["soc-lv-2"]
 
 {% include tryhackme-nav.html %}
 
-[Boot process]({{ site.baseurl }}/tryhackme/soc-lv-2/mbr-and-gpt/boot-process/)
-
-[MBR]({{ site.baseurl }}/tryhackme/soc-lv-2/mbr-and-gpt/mbr/)
-
-[GPT]({{ site.baseurl }}/tryhackme/soc-lv-2/mbr-and-gpt/gpt/)

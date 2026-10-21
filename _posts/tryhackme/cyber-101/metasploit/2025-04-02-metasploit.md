@@ -21,8 +21,3 @@ th_ancestors: ["cyber-101"]
 
 {% include tryhackme-nav.html %}
 
-[Module : supporting modules such as exploits, scanners, payloads, etc.]({{ site.baseurl }}/tryhackme/cyber-101/metasploit/module-supporting-modules-such-as-exploits-scanners-payloads-etc/)
-
-[Working with modules]({{ site.baseurl }}/tryhackme/cyber-101/metasploit/working-with-modules/)
-
-[**Metasploit: Exploitation**]({{ site.baseurl }}/tryhackme/cyber-101/metasploit/metasploit-exploitation/)

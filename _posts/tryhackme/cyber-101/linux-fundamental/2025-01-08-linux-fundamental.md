@@ -46,4 +46,3 @@ python3 -m http.server
 - Dung toan tu & sau lệnh để đưa nó vào chế độ background
 - **cron** :là một **daemon (process chạy nền)** dùng để **lên lịch thực thi các tác vụ (jobs) theo thời gian định sẵn**. Nó thường được dùng để tự động hóa các nhiệm vụ lặp lại như backup, gửi email, cập nhật hệ thống, hoặc chạy script. **crontab** là file cấu hình cho cron
 
-[Linux Shells]({{ site.baseurl }}/tryhackme/cyber-101/linux-fundamental/linux-shells/)

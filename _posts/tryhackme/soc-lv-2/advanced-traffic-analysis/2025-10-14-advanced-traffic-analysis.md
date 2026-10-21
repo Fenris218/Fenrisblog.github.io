@@ -21,5 +21,3 @@ th_ancestors: ["soc-lv-2"]
 
 {% include tryhackme-nav.html %}
 
-[CDN and IP visibility]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-traffic-analysis/cdn-and-ip-visibility/)
-

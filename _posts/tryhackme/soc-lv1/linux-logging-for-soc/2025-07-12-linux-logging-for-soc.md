@@ -21,8 +21,4 @@ th_ancestors: ["soc-lv1"]
 
 {% include tryhackme-nav.html %}
 
-[Authentication Logs]({{ site.baseurl }}/tryhackme/soc-lv1/linux-logging-for-soc/authentication-logs/)
-
-[Common Linux Logs]({{ site.baseurl }}/tryhackme/soc-lv1/linux-logging-for-soc/common-linux-logs/)
-
 [Auditd]({{ site.baseurl }}/tryhackme/soc-lv1/linux-logging-for-soc/auditd/)

@@ -21,4 +21,3 @@ th_ancestors: ["soc-lv1"]
 
 {% include tryhackme-nav.html %}
 
-[Splunk Components]({{ site.baseurl }}/tryhackme/soc-lv1/splunk-the-basics/splunk-components/)

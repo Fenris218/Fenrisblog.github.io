@@ -21,16 +21,3 @@ th_ancestors: ["cyber-101"]
 
 {% include tryhackme-nav.html %}
 
-[Types of Encryption]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/types-of-encryption/)
-
-[Diffie-Hellman Key Exchange]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/diffie-hellman-key-exchange/)
-
-[SSH]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/ssh/)
-
-[Digital Signatures and Certificate]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/digital-signatures-and-certificate/)
-
-[PGP and GPG]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/pgp-and-gpg/)
-
-[Hash]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/hash/)
-
-[John the ripper]({{ site.baseurl }}/tryhackme/cyber-101/cryptography-basics/john-the-ripper/)

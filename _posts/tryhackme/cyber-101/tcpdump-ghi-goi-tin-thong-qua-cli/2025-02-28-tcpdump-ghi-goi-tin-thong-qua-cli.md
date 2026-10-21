@@ -21,10 +21,3 @@ th_ancestors: ["cyber-101"]
 
 {% include tryhackme-nav.html %}
 
-[Basic Packet Capture]({{ site.baseurl }}/tryhackme/cyber-101/tcpdump-ghi-goi-tin-thong-qua-cli/basic-packet-capture/)
-
-[Filtering]({{ site.baseurl }}/tryhackme/cyber-101/tcpdump-ghi-goi-tin-thong-qua-cli/filtering/)
-
-[Advance Filtering]({{ site.baseurl }}/tryhackme/cyber-101/tcpdump-ghi-goi-tin-thong-qua-cli/advance-filtering/)
-
-[Displaying Packets]({{ site.baseurl }}/tryhackme/cyber-101/tcpdump-ghi-goi-tin-thong-qua-cli/displaying-packets/)

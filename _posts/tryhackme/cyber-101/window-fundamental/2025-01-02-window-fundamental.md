@@ -46,6 +46,3 @@ more < example.txt:hidden
     - Kiểm tra file tải xuống
 - 
 
-[**Active Directory Basics**]({{ site.baseurl }}/tryhackme/cyber-101/window-fundamental/active-directory-basics/)
-
-[Powershell]({{ site.baseurl }}/tryhackme/cyber-101/window-fundamental/powershell/)

@@ -352,6 +352,58 @@ html {
   }
 }
 
+.th-nav-card {
+  border: 1px solid var(--fenris-line-soft);
+  border-radius: 14px;
+  background-color: var(--fenris-surface);
+  overflow: hidden;
+}
+
+.th-nav-card .card-header {
+  border-bottom: 1px solid var(--fenris-line-soft);
+  background-color: rgba(56, 189, 248, 0.12);
+  color: var(--fenris-text-strong);
+  font-weight: 600;
+}
+
+.th-nav-card .list-group-item {
+  border-color: var(--fenris-line-soft);
+  background-color: transparent;
+  color: var(--text-color);
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    padding-left 0.2s ease;
+}
+
+.th-nav-card .list-group-item:hover {
+  background-color: rgba(56, 189, 248, 0.1);
+  color: var(--fenris-text-strong);
+  padding-left: 1.25rem;
+}
+
+.th-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--fenris-line);
+  border-radius: 999px;
+  background-color: rgba(56, 189, 248, 0.12);
+  color: var(--fenris-accent-soft);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.th-count-total {
+  border-color: transparent;
+  background-color: transparent;
+  background-image: linear-gradient(135deg, rgba(34, 211, 238, 0.3), rgba(37, 99, 235, 0.3));
+  color: var(--fenris-text-strong);
+}
+
 .categories.card,
 #toc-popup {
   border: 1px solid var(--fenris-line-soft);

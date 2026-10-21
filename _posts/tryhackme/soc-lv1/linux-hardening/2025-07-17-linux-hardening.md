@@ -24,12 +24,3 @@ th_ancestors: ["soc-lv1"]
 - Bảo mật physical bằng thêm mật khẩu cho GRUB
 - 
 
-[Filesystem Partitioning and Encryption]({{ site.baseurl }}/tryhackme/soc-lv1/linux-hardening/filesystem-partitioning-and-encryption/)
-
-[Firewall]({{ site.baseurl }}/tryhackme/soc-lv1/linux-hardening/firewall/)
-
-[Remote Access]({{ site.baseurl }}/tryhackme/soc-lv1/linux-hardening/remote-access/)
-
-[User Accounts]({{ site.baseurl }}/tryhackme/soc-lv1/linux-hardening/user-accounts/)
-
-[Audit and Log Configuration]({{ site.baseurl }}/tryhackme/soc-lv1/linux-hardening/audit-and-log-configuration/)

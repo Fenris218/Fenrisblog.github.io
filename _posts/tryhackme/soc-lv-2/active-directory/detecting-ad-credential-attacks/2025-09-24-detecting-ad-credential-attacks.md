@@ -23,8 +23,3 @@ th_ancestors: ["soc-lv-2", "soc-lv-2/active-directory"]
 
 ![image.png](image.png)
 
-[Kerberoasting]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-credential-attacks/kerberoasting/)
-
-[AS-REP roasting]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-credential-attacks/as-rep-roasting/)
-
-[LSASS dumping ]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-credential-attacks/lsass-dumping/)

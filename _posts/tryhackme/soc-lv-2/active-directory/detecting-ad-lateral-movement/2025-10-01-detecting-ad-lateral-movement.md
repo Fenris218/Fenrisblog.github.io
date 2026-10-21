@@ -21,9 +21,3 @@ th_ancestors: ["soc-lv-2", "soc-lv-2/active-directory"]
 
 {% include tryhackme-nav.html %}
 
-[Discovery and Reconnaissance]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-lateral-movement/discovery-and-reconnaissance/)
-
-[Detecting SMB lateral Movement]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-lateral-movement/detecting-smb-lateral-movement/)
-
-[Detecting PSEXEC lateral movement]({{ site.baseurl }}/tryhackme/soc-lv-2/active-directory/detecting-ad-lateral-movement/detecting-psexec-lateral-movement/)
-

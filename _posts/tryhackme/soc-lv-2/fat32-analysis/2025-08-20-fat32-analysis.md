@@ -21,8 +21,3 @@ th_ancestors: ["soc-lv-2"]
 
 {% include tryhackme-nav.html %}
 
-[FAT32 Structure]({{ site.baseurl }}/tryhackme/soc-lv-2/fat32-analysis/fat32-structure/)
-
-[Analysis Techniques and Tools]({{ site.baseurl }}/tryhackme/soc-lv-2/fat32-analysis/analysis-techniques-and-tools/)
-
-[T1564.001 Hidden Files and Directories]({{ site.baseurl }}/tryhackme/soc-lv-2/fat32-analysis/t1564-001-hidden-files-and-directories/)

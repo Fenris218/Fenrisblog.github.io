@@ -57,4 +57,3 @@ th_ancestors: ["cyber-101", "cyber-101/window-fundamental"]
     
 - 
 
-[Trees, Forests and Trusts]({{ site.baseurl }}/tryhackme/cyber-101/window-fundamental/active-directory-basics/trees-forests-and-trusts/)

@@ -48,4 +48,3 @@ An ARP Request or ARP Reply is not encapsulated within a UDP or even IP packet; 
 
 ARP is considered layer 2 because it deals with MAC addresses. Others would argue that it is part of layer 3 because it supports IP operations. What is essential to know is that ARP allows the translation from layer 3 addressing to layer 2 addressing.
 
-[ARP Spoofing]({{ site.baseurl }}/tryhackme/cyber-101/network/arp-briding-layer3-addressding-to-layer2-addressing/arp-spoofing/)

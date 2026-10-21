@@ -21,8 +21,3 @@ th_ancestors: ["cyber-101"]
 
 {% include tryhackme-nav.html %}
 
-[Type of Logs]({{ site.baseurl }}/tryhackme/cyber-101/log-fundamental/type-of-logs/)
-
-[Windows Event Logs Analysis]({{ site.baseurl }}/tryhackme/cyber-101/log-fundamental/windows-event-logs-analysis/)
-
-[Web Server Access Logs Analysis]({{ site.baseurl }}/tryhackme/cyber-101/log-fundamental/web-server-access-logs-analysis/)

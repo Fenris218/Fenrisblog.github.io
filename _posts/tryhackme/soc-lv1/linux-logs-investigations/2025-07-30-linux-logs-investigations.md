@@ -21,8 +21,3 @@ th_ancestors: ["soc-lv1"]
 
 {% include tryhackme-nav.html %}
 
-[Kernel Logs]({{ site.baseurl }}/tryhackme/soc-lv1/linux-logs-investigations/kernel-logs/)
-
-[User Logging With Syslog]({{ site.baseurl }}/tryhackme/soc-lv1/linux-logs-investigations/user-logging-with-syslog/)
-
-[Journalctl]({{ site.baseurl }}/tryhackme/soc-lv1/linux-logs-investigations/journalctl/)

@@ -21,12 +21,3 @@ th_ancestors: ["soc-lv1"]
 
 {% include tryhackme-nav.html %}
 
-[File,Permisstion,Timestamp]({{ site.baseurl }}/tryhackme/soc-lv1/linux-file-system-analysis/file-permisstion-timestamp/)
-
-[Users and Groups]({{ site.baseurl }}/tryhackme/soc-lv1/linux-file-system-analysis/users-and-groups/)
-
-[User Directories and Files]({{ site.baseurl }}/tryhackme/soc-lv1/linux-file-system-analysis/user-directories-and-files/)
-
-[Binaries and Executables]({{ site.baseurl }}/tryhackme/soc-lv1/linux-file-system-analysis/binaries-and-executables/)
-
-[Rootkits]({{ site.baseurl }}/tryhackme/soc-lv1/linux-file-system-analysis/rootkits/)

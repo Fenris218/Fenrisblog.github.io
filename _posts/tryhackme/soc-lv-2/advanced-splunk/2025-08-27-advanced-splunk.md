@@ -21,7 +21,3 @@ th_ancestors: ["soc-lv-2"]
 
 {% include tryhackme-nav.html %}
 
-[**Splunk: Exploring SPL**]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/splunk-exploring-spl/)
-
-[Data Manipulation]({{ site.baseurl }}/tryhackme/soc-lv-2/advanced-splunk/data-manipulation/)
-
