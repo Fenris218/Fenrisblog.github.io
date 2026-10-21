@@ -533,3 +533,81 @@ figure.highlight {
   color: var(--fenris-accent);
   box-shadow: 0 0 20px var(--fenris-glow);
 }
+
+:root[data-bs-theme='dark']::before {
+  content: '';
+  position: fixed;
+  inset: -25%;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 30% 30%, rgba(34, 211, 238, 0.1), transparent 38%),
+    radial-gradient(circle at 72% 68%, rgba(37, 99, 235, 0.1), transparent 40%),
+    linear-gradient(rgba(56, 189, 248, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56, 189, 248, 0.05) 1px, transparent 1px);
+  background-size:
+    110% 110%,
+    110% 110%,
+    64px 64px,
+    64px 64px;
+  animation:
+    fenris-neon-drift 32s ease-in-out infinite alternate,
+    fenris-neon-pulse 9s ease-in-out infinite alternate;
+}
+
+:root[data-bs-theme='dark']::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32vh;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(34, 211, 238, 0.04) 42%,
+    rgba(125, 211, 252, 0.08) 50%,
+    rgba(34, 211, 238, 0.04) 58%,
+    transparent 100%
+  );
+  animation: fenris-scan 18s linear infinite;
+}
+
+@keyframes fenris-neon-drift {
+  from {
+    transform: translate3d(-1.5%, -1.5%, 0) scale(1.02);
+  }
+
+  to {
+    transform: translate3d(1.5%, 1.5%, 0) scale(1.06);
+  }
+}
+
+@keyframes fenris-neon-pulse {
+  from {
+    opacity: 0.55;
+  }
+
+  to {
+    opacity: 0.95;
+  }
+}
+
+@keyframes fenris-scan {
+  from {
+    transform: translate3d(0, -35vh, 0);
+  }
+
+  to {
+    transform: translate3d(0, 110vh, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root[data-bs-theme='dark']::before,
+  :root[data-bs-theme='dark']::after {
+    animation: none;
+  }
+}
