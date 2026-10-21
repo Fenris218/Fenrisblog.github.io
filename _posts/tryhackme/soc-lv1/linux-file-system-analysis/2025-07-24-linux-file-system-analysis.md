@@ -21,7 +21,7 @@ th_ancestors: ["soc-lv1"]
 
 {% include tryhackme-nav.html %}
 
-[File,Permisstion,Timestamp]({{ site.baseurl }}/tryhackme/soc-lv1/linux-file-system-analysis/file-permission-timestamp/)
+[File,Permisstion,Timestamp]({{ site.baseurl }}/tryhackme/soc-lv1/linux-file-system-analysis/file-permisstion-timestamp/)
 
 [Users and Groups]({{ site.baseurl }}/tryhackme/soc-lv1/linux-file-system-analysis/users-and-groups/)
 

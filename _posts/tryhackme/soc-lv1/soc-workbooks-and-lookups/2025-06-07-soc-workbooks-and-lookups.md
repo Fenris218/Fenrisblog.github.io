@@ -23,6 +23,6 @@ th_ancestors: ["soc-lv1"]
 
 This room explores SOC workbooks designed to streamline alert triage and explains various lookup methods to quickly retrieve user and system context.
 
-[Asset & identifies]({{ site.baseurl }}/tryhackme/soc-lv1/soc-workbooks-and-lookups/asset-identifies/)
+[Asset & identifies]({{ site.baseurl }}/tryhackme/soc-lv1/soc-workbooks-and-lookups/asset-indentifies/)
 
 [Workbooks Theory]({{ site.baseurl }}/tryhackme/soc-lv1/soc-workbooks-and-lookups/workbooks-theory/)
