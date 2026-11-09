@@ -1,0 +1,13 @@
+# Taste
+- Communicates with the assistant in Vietnamese and expects replies in Vietnamese. Confidence: 0.7
+- When reporting a defect or requesting a look, describes it as a symptom of a whole page type ("các trang mục lục như này bị lỗi...", "và tương tự cho các phần còn lại") and expects the fix applied consistently to every similar page/section, not just the one URL mentioned. Confidence: 0.75
+- Wants one unified visual language across the blog: when a theme-default page type (e.g. the stock category/tag listing) looks different from a page he already likes on his own site, replace the default with his custom style so all of them match. Confidence: 0.6
+- Cares about small visual/polish inconsistencies on the live site (square badges, duplicated nav lists, a stray "." after the site name) and expects them cleaned up along with the main bug. Confidence: 0.5
+- Gives short, terse corrections when the assistant misreads an instruction (e.g. "bỏ trang này ko phải tag") and expects the assistant to act on the corrected intent without re-arguing. Confidence: 0.4
+- Identifies the target by pasting URLs rather than describing them — both the live site page to change and the exact destinations of links he wants added ("bổ sung liên kết tới <url> kèm <url>") — so use the pasted URLs verbatim. Confidence: 0.5
+- When asking for a UI change, points to an existing page or component as the visual reference, such as an already-fixed page on his own site ("tôi muốn hiệu như này <url> thay vì mặc định như này <url>"), the theme's Categories layout, or an external site like hallibut.github.io, and wants the result to match it. Confidence: 0.8
+- Prefers a blue/cyan ("xanh nước biển") visual tone for the blog — navy backgrounds, cyan/blue accent borders and glow/hover effects, and a "high-tech neon blue" aesthetic (neon grid, glow, scanline) — over the theme's default palette. Confidence: 0.65
+- Wants decorative effects kept subtle ("nhẹ", "nhẹ" for the animated neon background): low-opacity glows, slow durations, faint rather than loud — so when adding visual flair default to restrained intensity and tell him which values to tweak to make it stronger/weaker. Confidence: 0.45
+- Prefers the theme's native components and class names over custom-built layouts when restyling pages. Confidence: 0.5
+- Checks the deployed site to judge visual results, so verify changes against the live page's appearance. Confidence: 0.4
+- Wants the assistant to carry work through to commit and push ("git push luôn cho tôi") rather than stopping after editing files — do the git commit/push and post-push verification without asking for confirmation. Confidence: 0.7
